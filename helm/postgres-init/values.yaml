@@ -98,7 +98,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/admin-services.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_audit:
     enabled: false
     scriptsDir: mosip_audit       # fixed - must match db_scripts/ folder in repo
@@ -114,7 +114,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/audit-manager.git
-    branch: v1.3.0
+    branch: v1.3.2
   mosip_keymgr:
     enabled: false
     scriptsDir: mosip_keymgr      # fixed - must match db_scripts/ folder in repo
@@ -130,7 +130,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/keymanager.git
-    branch: v1.3.0
+    branch: v1.4.1
   mosip_kernel:
     enabled: false
     scriptsDir: mosip_kernel       # fixed - must match db_scripts/ folder in repo
@@ -146,7 +146,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/commons.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_idmap:
     enabled: false
     scriptsDir: mosip_idmap        # fixed - must match db_scripts/ folder in repo
@@ -162,7 +162,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/id-repository.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_prereg:
     enabled: false
     scriptsDir: mosip_prereg       # fixed - must match db_scripts/ folder in repo
@@ -194,7 +194,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/id-repository.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_ida:
     enabled: false
     scriptsDir: mosip_ida          # fixed - must match db_scripts/ folder in repo
@@ -210,7 +210,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/id-authentication.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_credential:
     enabled: false
     scriptsDir: mosip_credential   # fixed - must match db_scripts/ folder in repo
@@ -226,7 +226,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/id-repository.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_regprc:
     enabled: false
     scriptsDir: mosip_regprc       # fixed - must match db_scripts/ folder in repo
@@ -242,7 +242,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/registration.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_pms:
     enabled: false
     scriptsDir: mosip_pms          # fixed - must match db_scripts/ folder in repo
@@ -261,7 +261,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/partner-management-services.git
-    branch: v1.2.2.2
+    branch: v1.2.2.4
   mosip_hotlist:
     enabled: false
     scriptsDir: mosip_hotlist      # fixed - must match db_scripts/ folder in repo
@@ -277,7 +277,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/admin-services.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_resident:
     enabled: false
     scriptsDir: mosip_resident     # fixed - must match db_scripts/ folder in repo
@@ -293,7 +293,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/resident-services.git
-    branch: v1.3.0
+    branch: v1.3.1
   mosip_toolkit:
     enabled: false
     scriptsDir: mosip_toolkit      # fixed - must match db_scripts/ folder in repo
@@ -309,7 +309,7 @@ databases:
         key: postgres-password
     dml: 0
     repoUrl: https://github.com/mosip/mosip-compliance-toolkit.git
-    branch: v1.4.2
+    branch: v1.4.3
   mosip_digitalcard:
     enabled: false
     scriptsDir: mosip_digitalcard  # fixed - must match db_scripts/ folder in repo
@@ -341,7 +341,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/esignet.git
-    branch: v1.4.1
+    branch: v2.0.0
   mosip_mockidentitysystem:
     enabled: false
     scriptsDir: mosip_mockidentitysystem  # fixed - must match db_scripts/ folder in repo
@@ -357,7 +357,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/esignet-mock-services.git
-    branch: v0.9.3
+    branch: v0.14.0
   mosip_otp:
     enabled: false
     scriptsDir: mosip_otp          # fixed - must match db_scripts/ folder in repo
@@ -389,7 +389,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/inji-certify.git
-    branch: v0.12.2
+    branch: v1.0.0-alpha.1
   inji_verify:
     enabled: false
     scriptsDir: inji_verify        # fixed - must match db_scripts/ folder in repo
@@ -405,7 +405,7 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/inji-verify.git
-    branch: v0.15.1
+    branch: v1.0.0-alpha.1
   inji_mimoto:
     enabled: false
     scriptsDir: inji_mimoto        # fixed - must match db_scripts/ folder in repo
@@ -421,4 +421,4 @@ databases:
         key: postgres-password
     dml: 1
     repoUrl: https://github.com/mosip/mimoto.git
-    branch: v0.19.2
+    branch: v1.0.0-alpha.1
